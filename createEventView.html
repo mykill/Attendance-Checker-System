@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/msuiitlogo.ico">
+
+    <title>Create Event</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+	<link href="css/MSUIIT.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/date_time.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="masthead">
+        <h3 class="text-muted" <p><img src="img/iit-logo.png" width="94" height="94" align="texttop" longdesc="img/iit-logo.png" /> Event Manager <span id="date_time"></span>
+			<script type="text/javascript">window.onload = date_time('date_time');</script></h3>
+        <ul class="nav nav-tabs">
+          <li role="presentation"><a href="homeView.html">Home</a></li>
+          <li class="active" role="presentation"><a href="createEventView.html">Create Event</a></li>
+          <li role="presentation"><a href="createClassView.html">Create Class</a></li>
+          <li role="presentation"><a href="checkEventAttendance.html">Check Event Attendance</a></li>
+          <li role="presentation"><a href="checkClassAttendance.html">Check Class Attendance</a></li>
+          <li role="presentation"><a href="aboutView.html">About</a></li>
+        </ul>
+      </div>
+
+      <!-- Page Header -->
+	  <center>
+		  <div class="page-header" style="width: 500px">
+				<h1>Create Event Form</h1>
+		  </div>
+	  </center>	
+	
+	<form action=CreateEvent.php method=get>
+	  <div class="group"  >
+		<input type="text"  id="inputName" name="eventName" required><span class="highlight"></span><span class="bar"></span>
+		<label for="inputName">Event Name</label>
+	  </div>
+	  
+	  <div class="group"  >
+		<input type="date"  id="inputDate" name="eventName" required><span class="highlight"></span><span class="bar"></span>
+		<label for="inputDate">Event Date</label>
+	  </div>
+	  <div class="group"  >
+		<input type="text"  id="inputVenue" name="eventName"><span class="highlight"></span><span class="bar"></span>
+		<label for="inputName">Event Venue</label>
+	  </div>
+	  <div class="group"  >
+		<input type="time"  id="inputSignIn" name="eventName"><span class="highlight"></span><span class="bar"></span>
+		<label for="inputSignIn">Event Sign-in Time</label>
+	  </div>
+	  <div class="group"  >
+		<input type="time"  id="inputSignOut" name="eventName"><span class="highlight"></span><span class="bar"></span>
+		<label for="inputSignOut">Event Sign-Out Time</label>
+	  </div>
+	  <div class="group">
+		<input type="text" id="inputCollegeInitial" name="eventCollegeInitial"><span class="highlight"></span><span class="bar"></span>
+		<label for="inputCollegeInitial">College Initial</label>
+	  </div>
+	  <button type="button" class="button buttonBlue">Create
+		<div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+	  </button>
+	</form>    
+
+
+      <!-- Site footer -->
+      <div class="footer">
+        <p>&copy; Company 2013</p>
+      </div>
+
+    </div> <!-- /container -->
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/msuiitlogo.ico">
+
+    <title>Check Class Attendance</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+	<link href="css/MSUIIT.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/date_time.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="masthead">
+        <h3 class="text-muted" <p><img src="img/iit-logo.png" width="94" height="94" align="texttop" longdesc="img/iit-logo.png" /> Event Manager <span id="date_time"></span>
+			<script type="text/javascript">window.onload = date_time('date_time');</script></h3>
+        <ul class="nav nav-tabs">
+          <li role="presentation"><a href="homeView.html">Home</a></li>
+          <li role="presentation"><a href="createEventView.html">Create Event</a></li>
+          <li role="presentation"><a href="createClassView.html">Create Class</a></li>
+          <li role="presentation"><a href="checkEventAttendance.html">Check Event Attendance</a></li>
+          <li class="active" role="presentation"><a href="checkClassAttendance.html">Check Class Attendance</a></li>
+          <li role="presentation"><a href="aboutView.html">About</a></li>
+        </ul>
+      </div>
+
+      <!-- Page Header -->
+      <div class="page-header"><center>
+		<h1>Check Class Attendance</h1>
+	  </div>
+		<form   action=AdminHomeView.html method=get autocomplete="on">
+			<div class="group">
+				<input type="search" id="inputIDNumber" required><span class="highlight"></span><span class="bar"></span>
+				<label for="inputIDNumber">Search ID Number</label>
+				<center><button type="button" class="button buttonBlue" style="width:50%">Search
+					<div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+				</button></center>
+			</div>	
+		</form>
+	</center>     
+
+
+      <!-- Site footer -->
+      <div class="footer">
+        <p>&copy; Company 2013</p>
+      </div>
+
+    </div> 
+  </body>
+</html>

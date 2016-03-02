@@ -1,0 +1,59 @@
+	* {
+		margin:0px;
+		padding:0px;
+	}
+	
+
+	#CreateEventForm {
+		font-family: verdana,helvetica;
+		font-size: 12px;
+		width: 400px;
+		height: 150px;
+		margin:100px auto;
+		background-color: white; 
+		padding: 20px;
+		border-radius: 5px; 
+		border:1px solid #909090;
+		box-shadow: 0.3em 0.3em 0.7em black;	
+	}
+
+	
+	#searchBar td {
+		text-shadow:0.2em 0.2em 0.4em black;
+	}
+	
+	#login_form {
+		position: relative;
+		width:400px;
+		height: 100%;
+		margin: 80px auto;
+		background-color: white; 
+		border-radius: 5px; 
+		border:1px solid #909090;
+		padding: 30px;
+		box-shadow: 0.4em 0.4em 0.7em black;
+	}
+
+	#date_time {
+		font-family: verdana, helvetica;
+		font-size: 15px;
+		
+		position: relative;
+	}
+
+	#search_form {
+		text-shadow:0.2em 0.2em 0.4em black;
+		font-family: verdana,helvetica;
+		font-size: 12px;
+		width: 500px;
+		height: 150px;
+		margin:100px auto;
+		background-color: white; 
+		padding: 40px;
+		border-radius: 5px; 
+		border:1px solid #909090;
+		box-shadow: 4px 4px 7px black;
+	}
+
+
+	
